@@ -3,4 +3,4 @@ credentials +=
     "GitHub Package Registry",
     "maven.pkg.github.com",
     "raj.vasupilli@gmail.com",
-    "577b58098b7600be947c5bbb78641b2299c94ddf")
+    "7aa8cf0c0532725f0e8a9c0e864cd77e14dc62cc")
