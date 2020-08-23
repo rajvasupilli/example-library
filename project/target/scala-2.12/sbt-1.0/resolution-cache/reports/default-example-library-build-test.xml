@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="example-library-build"
+		revision="0.1.0-SNAPSHOT"
+		extra-scalaVersion="2.12"
+		extra-sbtVersion="1.0"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20200823163229"/>
+	<dependencies>
+		<module organisation="com.codecommit" name="sbt-github-packages">
+			<revision name="0.3.1" status="release" pubdate="20200219162200" resolver="sbt-plugin-releases" artresolver="sbt-plugin-releases" extra-scalaVersion="2.12" extra-sbtVersion="1.0" downloaded="true" searched="true" default="false" conf="compile, default(compile)" position="0">
+				<metadata-artifact status="successful" details="" size="2891" time="348" location="/home/ubuntu/.ivy2/cache/scala_2.12/sbt_1.0/com.codecommit/sbt-github-packages/ivy-0.3.1.xml" searched="true" original-local-location="/home/ubuntu/.ivy2/cache/scala_2.12/sbt_1.0/com.codecommit/sbt-github-packages/ivy-0.3.1.xml.original" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.codecommit/sbt-github-packages/scala_2.12/sbt_1.0/0.3.1/ivys/ivy.xml"/>
+				<caller organisation="default" name="example-library-build" conf="test, compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.1.0-SNAPSHOT" extra-scalaVersion="2.12" extra-sbtVersion="1.0"/>
+				<artifacts>
+					<artifact name="sbt-github-packages" type="jar" ext="jar" status="successful" details="" size="27102" time="537" location="/home/ubuntu/.ivy2/cache/scala_2.12/sbt_1.0/com.codecommit/sbt-github-packages/jars/sbt-github-packages-0.3.1.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.codecommit/sbt-github-packages/scala_2.12/sbt_1.0/0.3.1/jars/sbt-github-packages.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

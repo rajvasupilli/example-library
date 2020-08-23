@@ -1,6 +1,6 @@
-credentials += 
+credentials +=
   Credentials(
     "GitHub Package Registry",
     "maven.pkg.github.com",
     "raj.vasupilli@gmail.com",
-    "3e3c83034abaaec62cdd4a9259094cd5ae611baa")
+    "577b58098b7600be947c5bbb78641b2299c94ddf")
